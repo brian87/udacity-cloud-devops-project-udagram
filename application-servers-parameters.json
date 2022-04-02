@@ -1,0 +1,14 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "UdagramXtian"
+	},
+    {
+        "ParameterKey": "WebServerAMI",
+		"ParameterValue": "ami-08ca3fed11864d6bb"
+    },
+    {
+        "ParameterKey": "WebServerInstanceType",
+		"ParameterValue": "t2.micro"
+    }
+]
