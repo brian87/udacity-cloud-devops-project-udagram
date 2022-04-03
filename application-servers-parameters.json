@@ -5,7 +5,7 @@
 	},
     {
         "ParameterKey": "WebServerAMI",
-		"ParameterValue": "ami-08ca3fed11864d6bb"
+		"ParameterValue": "ami-07d8796a2b0f8d29c"
     },
     {
         "ParameterKey": "WebServerInstanceType",

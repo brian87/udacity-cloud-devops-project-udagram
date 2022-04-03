@@ -13,7 +13,7 @@ Parameters:
   WebServerAMI:
     Description: The machine image to be used for web servers.
     Type: String
-    Default: ami-08ca3fed11864d6bb
+    Default: ami-07d8796a2b0f8d29c
   
   WebServerInstanceType:
     Description: The web server EC2 instance type to be used. 
@@ -158,6 +158,7 @@ Resources:
           apt-get install unzip python3-pip apache2 awscli -y
           systemctl start apache2.service
           pip3 install --upgrade awscli
+          mkdir -p /var/www/html
           cd /var/www/html
           aws s3 cp s3://xtianbucket/udacity-starter-website.zip .
           unzip -o udacity-starter-website.zip
